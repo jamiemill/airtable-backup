@@ -1,0 +1,19 @@
+{
+  "name": "airtable-backup",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/download": "^8.0.5",
+    "@types/json2csv": "^5.0.7",
+    "airtable": "^0.12.2",
+    "axios": "^1.7.7",
+    "download": "^8.0.0",
+    "json2csv": "^6.0.0-alpha.2"
+  }
+}
